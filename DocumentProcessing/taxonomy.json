@@ -93,6 +93,59 @@
           "RuleSet": null
         }
       ]
+    },
+    {
+      "DocumentTypeId": "ABCCompany.AccountTeam.Receipt",
+      "Group": "ABC Company",
+      "Category": "Account Team",
+      "Name": "Receipt",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ABCCompany.AccountTeam.Receipt.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ABCCompany.AccountTeam.Receipt.BillNo",
+          "FieldName": "Bill No",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ABCCompany.AccountTeam.Receipt.BillAmount",
+          "FieldName": "Bill Amount",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null
+        }
+      ]
     }
   ],
   "Groups": [
